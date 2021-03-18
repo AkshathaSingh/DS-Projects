@@ -1,6 +1,6 @@
 ## The Disaster Response Pipeline Project
 ### Overview
-This project was done as a part of the Udacity's Data Scientist Nanodegree program in collaboartion with Figure Eight. The aim of the project is to build a model for a Web App that would classify the disaster resposne messages into categories using Natural Language Processing and Machine Learning and return the results in real time. The model is built using the data engineering techniques and the data has been taken from Figure Eight.
+The aim of the project is to build a Machine Learning model for an interactive Web App that would take the messages sent during natural disasters and return the categories it belongs to in real-time to help the responders assist the people in need more efficiently. The data used here is real-world data provided by figure eight, the messages were gathered during natural disasters sent either via social media or to the disaster response organizations. The messages are first preprocessed using natural language processing, to create a data structure that is compatible with the ML algorithm to be trained on. Then the model is trained and tuned to increase the accuracy in predictions and prepared for deployment.
 
 The project is divided into three main components, the ETL Pipeline, ML Pipeline and the Web app:
 
@@ -34,3 +34,6 @@ The user can enter the messages in the app and the app returns the classified ca
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+
+--> This project was done as a part of the Udacity's Data Scientist Nanodegree program in collaboartion with Figure Eight. 
